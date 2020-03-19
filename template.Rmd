@@ -38,7 +38,9 @@ rawdata <- c("brett","H")
 
 
 ```{r}
-
+rawdata <- rawdata %>% mutate(
+  "poop"=TRUE
+)
 ```
 
 
